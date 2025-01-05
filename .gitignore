@@ -1,0 +1,49 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+!.idea/modules.xml
+!.idea/jarRepositories.xml
+!.idea/compiler.xml
+!.idea/vcs.xml
+!.idea/misc.xml
+!.idea/libraries/
+!.idea/encodings.xml
+
+#根据情况而定
+.idea/uiDesigner.xml
+.idea/workspace.xml
+
+#*.iml 文件
+#每个模块的配置文件，记录模块的依赖、内容根路径等。
+#建议提交，因为它是项目的重要部分。
+!*.iml
+*.iws
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
